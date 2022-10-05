@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background: #426A8C;
+    text-align: center;
+    overflow: visible;
+}
+
+header {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: sticky;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color:#111C26;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.topnav a.split{
+    float: right;
+    background-color: #426A8C;
+    color: #111C26;
+}
+
+.topnav a:hover{
+    background-color: #111C26;
+    color:#426A8C;
+}
+
+#home {
+    padding: auto;
+    margin: 500px;
+    color: #111C26;
+}
+
+#about {
+    padding: auto;
+    margin: 500px;
+    color: #111C26;
+}
+
+#projects {
+    padding: auto;
+    margin: 500px;
+    color: #111C26;
+}
+
+#surprise {
+    padding: auto;
+    margin: 500px;
+    color: #111C26;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
